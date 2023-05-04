@@ -17,6 +17,7 @@ import type {
   EmbeddedEdgeConfig,
 } from './types';
 import { fetchWithCachedResponse } from './utils/fetch-with-cached-response';
+import 'server-only';
 
 export {
   parseConnectionString,
