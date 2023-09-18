@@ -1,5 +1,11 @@
 # @vercel/edge-config
 
+## 0.4.1
+
+### Patch Changes
+
+- 3105f2b: make parseConnectionString parse both internal and external connection strings
+
 ## 0.4.0
 
 ### Minor Changes
