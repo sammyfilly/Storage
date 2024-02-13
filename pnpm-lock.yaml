@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': 7.21.0
   '@changesets/cli': 2.26.0
   '@edge-runtime/jest-environment': 2.0.8
-  '@edge-runtime/types': 2.0.8
+  '@edge-runtime/types': 2.2.9
   '@types/jest': 29.4.0
   '@types/node': 18.14.6
   '@vercel/style-guide': 4.0.2
@@ -23,7 +23,7 @@ devDependencies:
   '@babel/core': 7.21.0
   '@changesets/cli': 2.26.0
   '@edge-runtime/jest-environment': 2.0.8
-  '@edge-runtime/types': 2.0.8
+  '@edge-runtime/types': 2.2.9
   '@types/jest': 29.4.0
   '@types/node': 18.14.6
   '@vercel/style-guide': 4.0.2_g4dz4vkkcqs75gefnvivr5kff4
@@ -618,11 +618,16 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@edge-runtime/types/2.0.8:
-    resolution: {integrity: sha512-b+5nFA3SzMhEvL2uo3MECoiY2MhgWRt2UQ4EFFyHmLPRn5lb4AyJUny0eq5qxwzlLbv9bgVg/MOJtpuTgX1WWQ==}
-    engines: {node: '>=14'}
+  /@edge-runtime/primitives/4.1.0:
+    resolution: {integrity: sha512-Vw0lbJ2lvRUqc7/soqygUX216Xb8T3WBZ987oywz6aJqRxcwSVWwr9e+Nqo2m9bxobA9mdbWNNoRY6S9eko1EQ==}
+    engines: {node: '>=16'}
+    dev: true
+
+  /@edge-runtime/types/2.2.9:
+    resolution: {integrity: sha512-xhPxUwqnaro7YiHMu9ScI0GqSjEGY1tkAaP2nC+CsdKY+V9VsoaInSqOyz6kcnabNkR601/+SIwjKqG5r0RbJg==}
+    engines: {node: '>=16'}
     dependencies:
-      '@edge-runtime/primitives': 2.1.2
+      '@edge-runtime/primitives': 4.1.0
     dev: true
 
   /@edge-runtime/vm/2.1.2:
